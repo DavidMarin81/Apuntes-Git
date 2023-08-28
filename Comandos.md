@@ -12,6 +12,11 @@ Marco de colores para los comando
 ```ssh
 	git config --global color.ui true
 ```
+## Estado del proyecto
+
+Estado en el que se encuentra nuestro proyecto
+```ssh
+	git status
 
 ## Iniciando repositorio
 
