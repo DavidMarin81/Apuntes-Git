@@ -17,7 +17,7 @@ Marco de colores para los comando
 Estado en el que se encuentra nuestro proyecto
 ```ssh
 	git status
-
+```
 ## Iniciando repositorio
 
 Iniciamos GIT en la carpeta donde esta el proyecto
