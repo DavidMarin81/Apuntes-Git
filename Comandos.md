@@ -18,6 +18,10 @@ Estado en el que se encuentra nuestro proyecto
 ```ssh
 	git status
 ```
+Historial del repositorio
+```ssh
+	git log
+```
 ## Iniciando repositorio
 
 Iniciamos GIT en la carpeta donde esta el proyecto
@@ -108,6 +112,21 @@ Subimos un tag
 ```ssh
 	git push --tags
 ```
+## GIT REVERT - RESET
+
+Git Revert deshace los cambios hechos, pero lo deshecho es recomendable guardarlo en un commit por si lo quisieramos volver a recuperar.
+```ssh
+	git revert -n 1234567 //los 7 numeros corresponden a los primeros 7 numeros del hash del commit que queremos deshacer
+```
+Despues de hacer el revert, se aconseja hacer un commit del revert
+```ssh
+	git commit -m "Reverting a commit"
+```
+Git Reset regresa al commit del hash marcado y con --hard lo borra del historial
+```ssh
+	git reset 1234567 --hard
+```
+
 ## GIT LOG
 
 Muestra los logs de los commits
