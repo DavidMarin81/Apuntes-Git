@@ -52,6 +52,10 @@ subimos al repositorio
 ```ssh
 	git push -u origin (master o main)
 ```
+Cambiar el nombre de la rama
+```ssh
+	git branch -M nombreDeLaRama
+```
 
 ## GIT CLONE
 
