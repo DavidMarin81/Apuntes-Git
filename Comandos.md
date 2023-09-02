@@ -50,7 +50,7 @@ Hacemos el primer commit
 ```
 subimos al repositorio
 ```ssh
-	git push origin master
+	git push -u origin (master o main)
 ```
 
 ## GIT CLONE
