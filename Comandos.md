@@ -32,6 +32,14 @@ Clonamos el repositorio de github o bitbucket
 ```ssh
 	git clone <url>
 ```
+Agregar repositorio remoto
+```ssh
+	git remote add origin <url>
+```
+Cambiar de remote
+```ssh
+	git remote set-url origin <url>
+```
 Añadimos todos los archivos para el commit
 ```ssh
 	git add .
