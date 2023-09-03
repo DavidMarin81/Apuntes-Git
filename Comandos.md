@@ -12,6 +12,10 @@ Para ver el nombre de usuario e email actual (Se verán los datos en VSC)
 ```ssh	
 	git config --global -e
 ```
+Para cambiar el nombre de la rama por defecto (De master a main)
+```ssh	
+	git config --global init.default main
+```
 Marco de colores para los comando
 ```ssh
 	git config --global color.ui true
