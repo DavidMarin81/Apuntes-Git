@@ -65,14 +65,6 @@ subimos al repositorio
 ```ssh
 	git push -u origin (master o main)
 ```
-Cambiar el nombre de la rama
-```ssh
-	git branch -m nombreDeLaRama
-```
-Cambiar el nombre de la rama
-```ssh
-	git branch -m nombreDeLaRamaActual nombreNuevoParaLaRama
-```
 
 ## GIT CLONE
 
@@ -235,6 +227,14 @@ Crea un branch
 Lista los branches
 ```ssh
 	git branch
+```
+Cambiar el nombre de la rama
+```ssh
+	git branch -m nombreDeLaRama
+```
+Cambiar el nombre de la rama
+```ssh
+	git branch -m nombreDeLaRamaActual nombreNuevoParaLaRama
 ```
 Comando -d elimina el branch y lo une al master
 ```ssh
