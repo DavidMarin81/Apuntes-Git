@@ -67,7 +67,11 @@ subimos al repositorio
 ```
 Cambiar el nombre de la rama
 ```ssh
-	git branch -M nombreDeLaRama
+	git branch -m nombreDeLaRama
+```
+Cambiar el nombre de la rama
+```ssh
+	git branch -m nombreDeLaRamaActual nombreNuevoParaLaRama
 ```
 
 ## GIT CLONE
