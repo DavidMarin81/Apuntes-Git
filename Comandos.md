@@ -282,6 +282,10 @@ Lista un estado actual del repositorio con lista de archivos modificados o agreg
 ```ssh
 	git status
 ```
+Regresar al último commit, en el caso de que hiciesemos modificaciones y no nos gustasen los cambios
+```ssh
+	git checkout -- .
+```
 Quita del HEAD un archivo y le pone el estado de no trabajado
 ```ssh
 	git checkout -- <file>
