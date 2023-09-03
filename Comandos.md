@@ -8,7 +8,7 @@ Configurar Email
 ```ssh	
 	git config --global user.email dasdo1@gmail.com
 ```
-Para ver el nombre de usuario e email actual
+Para ver el nombre de usuario e email actual (Se verán los datos en VSC)
 ```ssh	
 	git config --global -e
 ```
