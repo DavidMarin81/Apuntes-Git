@@ -16,6 +16,11 @@ Para cambiar el nombre de la rama por defecto (De master a main)
 ```ssh	
 	git config --global init.default main
 ```
+Si aparece el error "Warning: LF will be replaced by CRLF in browserconfig.xml"
+El problema es con el CRLF por una interpretación de un carácter
+```ssh	
+	git config core.autocrlf true
+```
 Marco de colores para los comando
 ```ssh
 	git config --global color.ui true
