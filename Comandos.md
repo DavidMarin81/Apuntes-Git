@@ -224,6 +224,14 @@ Crea un branch
 ```ssh
 	git branch <nameBranch>
 ```
+Moverse a la rama
+```ssh
+	git checkout <nameBranch>
+```
+Fusionar la rama con el main (posicionarse en el main)
+```ssh
+	git merge <nameBranch>
+```
 Lista los branches
 ```ssh
 	git branch
@@ -301,6 +309,10 @@ Crea un branch en base a uno online
 Busca los cambios nuevos y actualiza el repositorio
 ```ssh
 	git pull origin <nameBranch>
+```
+Borrar commits
+```ssh
+	git rebase --onto HEAD~1 main
 ```
 Cambiar de branch
 ```ssh
