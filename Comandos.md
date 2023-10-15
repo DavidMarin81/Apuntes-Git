@@ -175,6 +175,11 @@ Saca un archivo del commit
 ```ssh
 	git reset HEAD <archivo>
 ```
+Borra el último commit y regresa al anterior.
+(Para cuando los últimos cambios no nos convencen y los queremos borrar)
+```ssh
+	git reset --hard HEAD~1
+```
 Devuelve el ultimo commit que se hizo y pone los cambios en staging
 ```ssh
 	git reset --soft HEAD^
